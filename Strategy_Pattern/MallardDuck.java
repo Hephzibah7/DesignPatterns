@@ -29,11 +29,12 @@ public class MallardDuck extends Duck {
         new MallardDuck create an object space in the heap and when we do obj=new MallardDuck that space is assigned the name MallardDuck
          */
 
-
-        /*
+        
+        /* 
         That class quack method will work which is lower in inheritance tree.
         Since Duck->MallardDuck , and mallardduck overrides the quack method so mallardduck quack method will be executed.
-         */
+        */
+        
         obj.quack(); //Output-I quack mallardly
        
     }
